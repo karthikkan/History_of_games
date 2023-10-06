@@ -1,0 +1,103 @@
+e:<!DOCTYPE html>
+<html>
+
+<head>
+  <title>History of Video Games</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    h1,h2{
+      font-family: 'Press Start 2P', cursive;
+    }
+  </style>
+</head>
+
+<body onkeypress="addKey(event)" onkeyup="removeKey(event)">
+  <script src="keys.js"></script>
+  <section>
+<h1>The History of Video Games</h1>
+<p>Click on any of the dots on the timeline to begin your journey!</p>
+  </section>
+  <div id="color">
+    
+    <div id = "timeline">
+      <hr id="line">
+    </div>
+  </div>
+
+  <section id="intro">
+    <h1>Introduction</h1>
+    <p>
+      Video games have helped me grow into the person I am today.  Through video games, I was able to truly appreciate the art of storytelling and worldbuilding.  Because of video games, I learned to communicate with others, whether they were teammates or classmates. 
+ Video games inspired me to learn coding, helping me find the passion for it I have today.  This hackathon has finally given me a chance to pay homage to the thing that has helped me: our team created a website dedicated to the history of video games.  Please enjoy!
+    <br>
+    - Archimedes Li
+    </p>
+  </section>
+  
+  <section class="page">
+    <h2 style="font-family: 'Press Start 2P', cursive;">The First Games</h2>
+    <p>SpaceWars is often considered the first computer game. It involves 2 players each controlling a spaceship trying to take the other one down. A gravity well acts as an external factor in pulling the ships together.</p>
+    <h2>Demo: Spacewar</h2>
+    <p>Controls: W, A, D to move.  Space to shoot.  Kill the enemy ship!</p>
+    <img src="/minigames/Spacewar/spacewar1.png" id="spacewar1" style="display:none;">
+    <img src="/minigames/Spacewar/spacewar2.png" id="spacewar2" style="display:none;">
+    <canvas id="spacewar" ></canvas>
+  </section>
+  <section class="page" style="margin:1em">
+    <h1>Pong</h1>
+    <p>The online, scuffed version of real ping pong.</p>
+    <p>Controls: Move the mouse to play</p>
+    <canvas id="pong" width="650" height="650" ></canvas>
+  </section>
+  <section class="page">
+    <h2>Arcade Consoles etc</h2>
+    <p>Space Invaders is developed by Tomohiro Nishikado and is an arcade shoot 'em up style game. The players controls a tank and fires bullets against a wave of aliens to beat the game.</p>
+    <h2>Demo: Space Invaders</h2>
+    <p>Controls: A, D to move.  Space to shoot.  Kill the enemy invaders!</p>
+    <div>
+      
+    </div>
+    <img src="/minigames/Spacewar/spacewar1.png" id="spacewar1" style="display:none;">
+    <img src="/minigames/Spacewar/spacewar2.png" id="spacewar2" style="display:none;">
+    <canvas id="invaders" ></canvas>
+  </section>
+  <section class="page">
+    <h1>Mario</h1>
+    <p>In the 1980s, a new game that is the face of a world-renowned company and extends to multiple spin-offs would be released. The game is Mario, which used a 2d side scroller that revolutionized level design and video game making.</p>
+    <p>Controls: A, D to move. W to jump.</p>
+    <img src="/minigames/Mario/marioShort.webp" id="marioShort" style="display:none;">
+    <img src="/minigames/Mario/brick.png" id="marioBrick" style="display:none;">
+    <img src="/minigames/Mario/ground.png" id="marioGround" style="display:none;">
+    <img src="/minigames/Mario/goomba.png" id="marioGoomba" style="display:none;">
+    <img src="/minigames/Mario/mushroom.webp" id="marioMushroom" style="display:none;">
+    <img src="/minigames/Mario/questionblock.png" id="marioPowerup" style="display:none;">
+    <img src="/minigames/Mario/marioFlag.webp" id="marioFlag" style="display:none;">
+    <canvas id="mario" ></canvas>
+  </section>
+  <section class="page">
+    <h1>3D Graphics</h1>
+    <p>
+      During this time, the graphics in computers and consoles were getting continuously better, able to create a 3-dimensional experience.  A great example of this was the original 3D first person shooter: Doom.
+    </p>
+    <img src="https://www.godisageek.com/wp-content/uploads/doom-ii-classic-screenshot-02-ps4-us-26july2019-790x444.jpeg">
+  </section>
+  <section class="page">
+    <h1>Online Gaming</h1>
+    <p>
+      With the rise of the internet, people began to connect online through video games.  The video games of this time truly start to resemble the ones we see today.
+    </p>
+    <img src="https://miro.medium.com/max/1400/1*H9As2FHvRToRpOd31NWdPg.png">
+  </section>
+  
+  <script src="/minigames/Spacewar/spacewar.js"></script>
+  <script src="/minigames/Pong/pong.js"></script>
+  <script src="/minigames/Space Invaders/spaceinvaders.js"></script>
+  <script src="minigames/Mario/mario.js"></script>
+  <script src="layout.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+1950 - 1969
+- As early as 1950, computer scientists were using electronic machines to construct relatively simple game systems, such as Bertie the Brain in 1950 to play tic tac toe
+- Demo: Spacewar! developed in 1962 by Steve Russell at MIT - Arky
+
+1970-1974
+- Introduction of C and BASIC made for easier time programming
+- Birth of arcade games: Atari
+- Demo: Pong developed in 1972-kar
+
+1975-1979
+- Consoles such as Magnavox Odyssey, Atari Home Pong, Color TV-Game series (by Nintendo)
+- Saturation of Pong games
+- Demo: Space Invaders
+
+1980-1989
+- Home computers such as the Apple and Apple II, Commodore 64
+-  Video Graphics Array (VGA) (1987) that expanded the computer's ability to display color graphics
+- Consoles also improved: Super Nintendo Entertainment System, Playstation
+- Demo: Super Mario Bros.-kar
+
+1990-1999
+- 3D graphics
+- New genres: first person shooter, fighting games
+- handheld devices: game boy
+- Demo: Touhou Project - Arky
+
+2000
+OK ILL DO THE REST LATER
